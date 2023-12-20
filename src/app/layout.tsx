@@ -5,6 +5,7 @@ import HeaderOne from '@/components/HeaderOne'
 import HeaderMain from '@/components/HeaderMain'
 import NavBar from '@/components/NavBar'
 import MobileNav from '@/components/MobileNav'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <NavBar />
         <MobileNav />
         {children}
+        <Footer />
       </body>
     </html>
   )
